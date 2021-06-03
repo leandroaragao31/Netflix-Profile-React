@@ -7,6 +7,10 @@ import Profile4 from "./assets/profile-smile.jpg";
 import Profile5 from "./assets/profile-robo.jpg";
 
 class Main extends Component {
+  state = {
+    name: ["Luan", "Rhayssa", "Paula", "Roberto", "João"]
+  };
+
   render() {
     return (
       <main>
@@ -15,23 +19,23 @@ class Main extends Component {
           <div className="perfil-container">
             <figure>
               <img className="box-img" src={Profile1} alt="bolado" />
-              <p>Luan</p>
+              <p>{this.state.name[0]}</p>
             </figure>
             <figure>
               <img className="box-img" src={Profile2} alt="pinguin" />
-              <p>Rhayssa</p>
+              <p>{this.state.name[1]}</p>
             </figure>
             <figure>
               <img className="box-img" src={Profile3} alt="minion" />
-              <p>Paula</p>
+              <p>{this.state.name[2]}</p>
             </figure>
             <figure>
               <img className="box-img" src={Profile4} alt="smile" />
-              <p>Roberto</p>
+              <p>{this.state.name[3]}</p>
             </figure>
             <figure>
               <img className="box-img" src={Profile5} alt="robo" />
-              <p>João</p>
+              <p>{this.state.name[4]}</p>
             </figure>
           </div>
 
