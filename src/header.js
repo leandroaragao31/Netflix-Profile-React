@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Logo from "./assets/logo-netflix";
+import Logo from "./assets/logo-netflix.jpg";
 import "./styles.css";
 
 class Header extends Component {
