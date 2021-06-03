@@ -34,6 +34,10 @@ class Main extends Component {
               <p>João</p>
             </figure>
           </div>
+
+          <div className="box-button">
+            <button>gerenciar perfis</button>
+          </div>
         </section>
       </main>
     );
