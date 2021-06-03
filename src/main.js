@@ -13,11 +13,26 @@ class Main extends Component {
         <section>
           <h2>Quem está assistindo?</h2>
           <div className="perfil-container">
-            <img src={Profile1} alt="bolado" />
-            <img src={Profile2} alt="pinguin" />
-            <img src={Profile3} alt="pinguin" />
-            <img src={Profile4} alt="pinguin" />
-            <img src={Profile5} alt="pinguin" />
+            <figure>
+              <img className="box-img" src={Profile1} alt="bolado" />
+              <p>Luan</p>
+            </figure>
+            <figure>
+              <img className="box-img" src={Profile2} alt="pinguin" />
+              <p>Rhayssa</p>
+            </figure>
+            <figure>
+              <img className="box-img" src={Profile3} alt="minion" />
+              <p>Paula</p>
+            </figure>
+            <figure>
+              <img className="box-img" src={Profile4} alt="smile" />
+              <p>Roberto</p>
+            </figure>
+            <figure>
+              <img className="box-img" src={Profile5} alt="robo" />
+              <p>João</p>
+            </figure>
           </div>
         </section>
       </main>

@@ -24,8 +24,28 @@ h2 {
   font-family: "Helvetica Neue ME";
 }
 
-img {
+.box-img {
   display: flex;
   align-items: center;
   height: 20vh;
+  cursor: pointer;
+}
+
+.box-img:hover {
+  border: solid;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-size: 1.8vw;
+  padding-top: 1.5vh;
+  color: white;
+  font-family: "Helvetica Neue ME";
+}
+
+.perfil-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
