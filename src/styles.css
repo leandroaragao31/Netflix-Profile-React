@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 20vh;
+  padding-top: 2vh;
+  padding-left: 3vw;
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  font-size: 2.5vw;
+  text-align: center;
+  letter-spacing: 0.3vw;
+  padding-bottom: 4vh;
+  color: white;
+  font-family: "Helvetica Neue ME";
+}
