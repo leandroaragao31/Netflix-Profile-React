@@ -58,6 +58,16 @@ p {
   padding-top: 1.5vh;
   color: white;
   font-family: "Helvetica Neue ME";
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .perfil-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .perfil-container {
