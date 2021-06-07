@@ -20,6 +20,17 @@
       format("svg");
 }
 
+@media (max-width: 750px) {
+  .container-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 25vw;
+  }
+}
+
 .logo {
   height: 20vh;
   padding-top: 2vh;
