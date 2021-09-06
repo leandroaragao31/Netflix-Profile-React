@@ -1,12 +1,10 @@
 import React from "react";
-import Header from "./header.js";
-import Main from "./main.js";
+import Home from "./Components/home.js";
 
 function Junta() {
   return (
     <div>
-      <Header />
-      <Main />
+      <Home />
     </div>
   );
 }
